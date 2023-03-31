@@ -14,7 +14,7 @@ h1{
 display: flex;
 align-items: center;
 gap: 150px;
-font-size: large;
+font-size: 1.5em;
 text-decoration: underline;
 }
 
@@ -26,15 +26,43 @@ aside {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-left: 5em;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 20px;
+    color: rgb(32, 68, 92);;
 }
 
-section {
-    display: inline-flex;
+main {
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-right: 50px;
+}
+
+h3 { 
+    font-size: 1.78em;
+    margin-left: 5em;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 20px;
+    color: rgb(32, 68, 92);
+}
 
 
 
