@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #292525;
+    color: #f8f8f8;
+}
+
+h1{
+    background-color: rgb(32, 68, 92);
+}
+
+.nav {
+display: flex;
+align-items: center;
+gap: 150px;
+font-size: large;
+text-decoration: underline;
+}
+
+aside {
+    background-image: url(mock-b2.jpg);
+    padding: 100px;
+    text-align: end;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-left: 5em;
+}
+
+section {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+
+
