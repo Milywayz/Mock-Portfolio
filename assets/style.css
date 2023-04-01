@@ -19,12 +19,30 @@ h1{
     background-color: rgb(32, 68, 92);
 }
 
-.work-photo {
+#work-photo {
     border: 1px solid rgb(32, 68, 92);
     border-width: 25px;
     margin-right: 70px;
     display: flex;
+    float: right;
 }
+
+#work-photo2 {
+    border: 1px solid rgb(32, 68, 92);
+    border-width: 25px;
+    margin-right: 70px;
+    display: flex;
+
+}
+
+#work-photo3 {
+    border: 1px solid rgb(32, 68, 92);
+    border-width: 25px;
+    margin-right: 70px;
+    display: flex;
+
+}
+
 
 .nav {
 display: flex;
@@ -81,3 +99,17 @@ h3 {
     padding: 20px;
     color: rgb(32, 68, 92);
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 50%;
+    }
+    }
+  
+
+  @media screen and (max-width: 576px) {
+    main {
+        width: 100%;
+    }
+    }
+  
