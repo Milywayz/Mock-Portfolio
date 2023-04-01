@@ -11,6 +11,10 @@ header {
     
 }
 
+header a:visited {
+    color: #f8f8f8;
+}
+
 section p {
     margin-right: 500px;
 }
@@ -42,6 +46,8 @@ h1{
     display: flex;
 
 }
+
+
 
 
 .nav {
@@ -84,7 +90,13 @@ footer {
     align-items: center;
     font-size: 1.5em;
     margin-right: 50px;
+    color: rgb(32, 68, 92)
 }
+
+footer a:visited{
+    color: rgb(32, 68, 92);
+}
+
 footer div{
     text-decoration: underline;
 }
@@ -101,14 +113,14 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    main {
+    body {
         width: 50%;
     }
     }
   
 
   @media screen and (max-width: 576px) {
-    main {
+    body {
         width: 100%;
     }
     }
