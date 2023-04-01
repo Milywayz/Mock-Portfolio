@@ -110,10 +110,6 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    
-    header {
-        
-    }
     body {
         width: 50%;
     }
@@ -129,6 +125,7 @@ h3 {
     h3 {
         margin-left: 0;
     }
+    
 
 @media screen and (max-width: 576px) {
         body {
@@ -146,4 +143,4 @@ h3 {
         color: rgb(32, 68, 92);
     }
 }
-  
+}
