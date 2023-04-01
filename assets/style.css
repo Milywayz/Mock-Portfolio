@@ -16,7 +16,7 @@ header a:visited {
 }
 
 section p {
-    margin-right: 500px;
+    display: inline-block;
 }
 
 h1{
@@ -27,22 +27,21 @@ h1{
     border: 1px solid rgb(32, 68, 92);
     border-width: 25px;
     margin-right: 70px;
-    display: flex;
-    float: right;
+    display: inline-block;
 }
 
 #work-photo2 {
     border: 1px solid rgb(32, 68, 92);
     border-width: 25px;
     margin-right: 70px;
-    display: flex;
+    display: inline-block;
 
 }
 
 #work-photo3 {
     border: 1px solid rgb(32, 68, 92);
     border-width: 25px;
-    margin-right: 70px;
+    margin-right: 100px;
     display: flex;
 
 }
@@ -110,37 +109,55 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        width: 50%;
-    }
-    aside {
-        width: 9em;
-    }
+
     h2 {
         margin-left: 0;
+        font-size: 2em;
     }
-    p {
-        flex-wrap: wrap;
+    header{
+        justify-content: center;
+        display: inline-block;
+    }
+    section p {
+        display: inline-block;
+        margin-right: 40em;
+        font-size: .95em;
     }
     h3 {
         margin-left: 0;
     }
+    footer {
+        font-size: 1em;
+        margin-right: 50px;
+    }
+    h3 { 
+        font-size: 1.5em;
+    }
+    main {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 3fr;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
     
 
 @media screen and (max-width: 576px) {
-        body {
-            width: 100%;
-        }
-
-        h3 { 
-        font-size: 1.78em;
-        margin-left: 5em;
-        border-style: solid;
-        border-bottom: 0px;
-        border-left: 0px;
-        border-top: 0px;
-        padding: 20px;
-        color: rgb(32, 68, 92);
+       
+    h2 {
+        font-size: 1.5em;
     }
-}
-}
+    header{
+        font-size: 10px;
+    }
+    section p {
+        margin-right: 60em;
+        font-size: .78em;
+    }
+    footer {
+        font-size: 1em;
+        margin-right: 90px;
+        gap: 20px;
+    }
+    
+}}
