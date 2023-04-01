@@ -1,13 +1,29 @@
+body{
+    background-color: rgb(88, 160, 160);
+}
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     background: #292525;
     color: #f8f8f8;
+    
+}
+
+section p {
+    margin-right: 500px;
 }
 
 h1{
     background-color: rgb(32, 68, 92);
+}
+
+#work-photo {
+    border-style: solid;
+    border-image: linear-gradient(rgb(34, 95, 95), #581d4c) 30;
+    border-width: 25px;
+    margin-right: 700px;
 }
 
 .nav {
@@ -49,8 +65,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 1.5em;
-    text-decoration: underline;
     margin-right: 50px;
+}
+footer div{
+    text-decoration: underline;
 }
 
 h3 { 
@@ -63,6 +81,3 @@ h3 {
     padding: 20px;
     color: rgb(32, 68, 92);
 }
-
-
-
