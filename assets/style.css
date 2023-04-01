@@ -19,11 +19,11 @@ h1{
     background-color: rgb(32, 68, 92);
 }
 
-#work-photo {
-    border-style: solid;
-    border-image: linear-gradient(rgb(34, 95, 95), #581d4c) 30;
+.work-photo {
+    border: 1px solid rgb(32, 68, 92);
     border-width: 25px;
-    margin-right: 700px;
+    margin-right: 70px;
+    display: flex;
 }
 
 .nav {
