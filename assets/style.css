@@ -21,10 +21,12 @@ h4 {
     color: #fff;
     padding: 20px;
     margin: 0%;
+    position: absolute;
 }
 .work-photo {
     border: 1px solid rgb(32, 68, 92);
     border-width: 20px;
+    display: inline-flex;
 }
 img {
     width: 85%;
