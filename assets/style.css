@@ -106,13 +106,22 @@ h3 {
         margin-left: 0;
         font-size: 4em;
     }
+    img {
+        width: 80%;
+    }
+    .work-photo {
+      border: none;
+    }
+    #work-photo {
+       border-width: 25px;
+    }
+
     header{
         justify-content: center;
         display: inline-block;
     }
     section p {
         display: inline-block;
-        margin-right: 45em;
         font-size: .95em;
     }
     h3 {
@@ -138,11 +147,13 @@ h3 {
     header{
         font-size: 10px;
     }
+    img {
+        width: 80%;
+    }
     .nav {
         gap: 120px;
     }
     section p {
-        margin-right: 60em;
         font-size: .89em;
     }
     footer {
