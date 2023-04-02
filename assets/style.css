@@ -23,27 +23,19 @@ h1{
     background-color: rgb(32, 68, 92);
 }
 
+.work-photo {
+    border: 1px solid rgb(76, 135, 175);
+    border-width: 25px;
+    margin-right: 70px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
 #work-photo {
     border: 1px solid rgb(32, 68, 92);
     border-width: 25px;
     margin-right: 70px;
     display: inline-block;
-}
-
-#work-photo2 {
-    border: 1px solid rgb(32, 68, 92);
-    border-width: 25px;
-    margin-right: 70px;
-    display: inline-block;
-
-}
-
-#work-photo3 {
-    border: 1px solid rgb(32, 68, 92);
-    border-width: 25px;
-    margin-right: 100px;
-    display: flex;
-
 }
 
 .nav {
@@ -112,7 +104,7 @@ h3 {
 
     h2 {
         margin-left: 0;
-        font-size: 2em;
+        font-size: 4em;
     }
     header{
         justify-content: center;
@@ -120,7 +112,7 @@ h3 {
     }
     section p {
         display: inline-block;
-        margin-right: 40em;
+        margin-right: 45em;
         font-size: .95em;
     }
     h3 {
@@ -134,25 +126,24 @@ h3 {
         font-size: 1.5em;
     }
     main {
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr 3fr;
-        gap: 50px;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
     }
     
 
 @media screen and (max-width: 576px) {
        
     h2 {
-        font-size: 1.5em;
+        font-size: 4em;
     }
     header{
         font-size: 10px;
     }
+    .nav {
+        gap: 120px;
+    }
     section p {
         margin-right: 60em;
-        font-size: .78em;
+        font-size: .89em;
     }
     footer {
         font-size: 1em;
