@@ -21,8 +21,7 @@ FullScreen
 Max Width: 768px
 ![Alt text](./assets/webpage2.png)
 
-Max Width: 576px
-
+Max Width: 576px <br>
 ![Alt text](./assets/webpage3.png)
 
 
