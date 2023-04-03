@@ -33,6 +33,6 @@ N/A
 
 ## Features
 
-UI Scroll on Header
-Clickable Images
+UI Scroll on Header <br>
+Clickable Images to past work
 
