@@ -15,8 +15,16 @@ This project was made to make a mock portfolio while using HTML and CSS coding. 
 N/A
 
 ## Usage
+FullScreen
+![Alt text](./assets/webpage1.png)
 
-![Alt text](/assets/)
+Max Width: 768px
+![Alt text](./assets/webpage2.png)
+
+Max Width: 576px
+![Alt text](./assets/webpage3.png)
+
+
    
 ## License
 
