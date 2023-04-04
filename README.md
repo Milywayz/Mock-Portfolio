@@ -7,7 +7,7 @@ https://milywayz.github.io/Mock-Portfolio/
 
 ## Description
 
-This project was made to make a mock portfolio while using HTML and CSS coding. It has a working clickable links to users previous work, scrolling UI on the header, and gives information of a portfolio. 
+This project was made to make a mock portfolio while using HTML and CSS coding. It has working clickable links to users previous work, scrolling UI on the header, and gives information of a portfolio. 
 
 
 ## Installation
