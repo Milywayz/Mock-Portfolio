@@ -34,5 +34,7 @@ N/A
 ## Features
 
 UI Scroll on Header <br>
-Clickable Images to past work
+Clickable Images to past work <br>
+Adjusted size to fit tablets sizes of 768px <br>
+Adjusted size to fit phone sizes of 576px
 

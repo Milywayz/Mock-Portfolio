@@ -1,9 +1,10 @@
+/* General CSS */
 body{
     background-color: rgb(88, 160, 160);
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Header Section*/
 header {
     display: flex;
     justify-content: space-between;
@@ -17,6 +18,31 @@ header a {
     color: #f8f8f8;
 }
 
+.nav {
+display: flex;
+align-items: center;
+gap: 150px;
+font-size: 1.5em;
+}
+
+h1{
+    background-color: rgb(32, 68, 92);
+}
+
+aside {
+    background-image: url(mock-b2.jpg);
+    padding: 100px;
+    text-align: end;
+    font-size: 4em;
+}
+/* Main Section and Styling */
+main {
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 h4 {
     background-color: aqua;
     text-align: center;
@@ -33,26 +59,10 @@ h4 {
     margin: auto;
 }
 
-h1{
-    background-color: rgb(32, 68, 92);
-}
 a {
     text-decoration: none;
 }
 
-.nav {
-display: flex;
-align-items: center;
-gap: 150px;
-font-size: 1.5em;
-}
-
-aside {
-    background-image: url(mock-b2.jpg);
-    padding: 100px;
-    text-align: end;
-    font-size: 4em;
-}
 
 h2 {
     font-size: 3.5em;
@@ -65,14 +75,17 @@ h2 {
     margin-left: auto;
 }
 
-main {
-    display: grid;
-    justify-content: flex-end;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    flex-wrap: wrap;
+h3 { 
+    font-size: 1.78em;
+    margin-left: 5em;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 20px;
+    color: rgb(32, 68, 92);
 }
-
+/* Footer Section */
 footer {
     display: flex;
     justify-content: space-between;
@@ -90,16 +103,6 @@ footer div{
     text-decoration: underline;
 }
 
-h3 { 
-    font-size: 1.78em;
-    margin-left: 5em;
-    border-style: solid;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-top: 0px;
-    padding: 20px;
-    color: rgb(32, 68, 92);
-}
 
 @media screen and (max-width: 768px) {
 
