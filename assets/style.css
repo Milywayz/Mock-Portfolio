@@ -103,6 +103,23 @@ footer div{
 
 @media screen and (max-width: 768px) {
 
+    /* Header Section for Media Screen 768px */
+    header{
+        justify-content: center;
+        display: inline-block;
+        padding-top: 0px;
+    }
+    header h1 {
+        margin-top: 0px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding: 10px;
+        
+    }
+    /* Main Section and Styling for Media Screen 768px */
+    main {
+        grid-template-columns: 1fr;
+    }
     h2 {
         font-size: 4em;
         margin: 0%;
@@ -116,56 +133,45 @@ footer div{
     .work-photo {
       display: block;
     }
-    header{
-        justify-content: center;
-        display: inline-block;
-        padding-top: 0px;
-    }
-    header h1 {
-        margin-top: 0px;
-        margin-left: -10px;
-        margin-right: -10px;
-        padding: 10px;
-        
-    }
     section p {
         display: inline-block;
         font-size: .95em;
+    }
+    div {
+        width: 125%;
+    }
+    /* Footer Section for Media Screen 768px */
+    footer {
+        font-size: 1em;
+        margin-right: 50px;
     }
     h3 {
         margin-left: 0px;
         margin-right: 50px;
         font-size: 1.5em;
     }
-    footer {
-        font-size: 1em;
-        margin-right: 50px;
-    }
-    div {
-        width: 125%;
-    }
-    main {
-        grid-template-columns: 1fr;
-    }
     
 
 @media screen and (max-width: 576px) {
-       
-    h2 {
-        font-size: 4em;
-    }
+     
+    /* Header Section for Media Screen 576px */
     header{
         font-size: 10px;
-    }
-    img {
-        width: 80%;
     }
     .nav {
         gap: 120px;
     }
+    /* Main Section for Media Screen 576px */
+    h2 {
+        font-size: 4em;
+    }
+    img {
+        width: 80%;
+    }
     section p {
         font-size: .89em;
     }
+    /* Footer Section for Media Screen 576px */
     footer {
         font-size: 1em;
         margin-right: 90px;
